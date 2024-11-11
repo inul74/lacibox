@@ -31,8 +31,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         </div>
       </section>
 
-      <section className="flex flex-1 flex-col items-center bg-white p-4 py-8 lg:justify-center lg:p-8 lg:py-0">
-        <div className="mb-8 lg:hidden">
+      <section className="flex flex-1 flex-col items-center bg-white p-4 py-10 lg:justify-center lg:p-10 lg:py-0">
+        <div className="mb-14 lg:hidden">
           <Image
             src="/lacibox.png"
             alt="logo"
