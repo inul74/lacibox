@@ -20,6 +20,8 @@ import {
 
 import { createAccount, signInUser } from "@/lib/actions/user.actions";
 
+import OtpModal from "./OTPModal";
+
 type FormType = "sign-in" | "sign-up";
 
 const authFormSchema = (formType: FormType) => {
@@ -158,7 +160,10 @@ const AuthForm = ({ type }: { type: FormType }) => {
           </div>
         </form>
       </Form>
-      {/* OTP Verification */}
+
+      {accountId && (
+        <OtpModal email={form.getValues("email")} accountId={accountId} />
+      )}
     </>
   );
 };

@@ -1,3 +1,7 @@
+<h1 align="center">LaciBox - Media penyimpanan serbaguna ✨</h1>
+
+![Banner App](/public/banner.png)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -18,7 +22,28 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Set Up Environment Variables
+
+Create a new file named .env.local in the root of your project and add the following content:
+
+```bash
+NEXT_PUBLIC_APPWRITE_ENDPOINT="https://cloud.appwrite.io/v1"
+NEXT_PUBLIC_APPWRITE_PROJECT=""
+NEXT_PUBLIC_APPWRITE_DATABASE=""
+NEXT_PUBLIC_APPWRITE_USERS_COLLECTION=""
+NEXT_PUBLIC_APPWRITE_FILES_COLLECTION=""
+NEXT_PUBLIC_APPWRITE_BUCKET=""
+NEXT_APPWRITE_KEY=""
+```
+
+---
+
+## ⭐DO NOT FORGET TO STAR THIS REPO⭐
+
+---
+
+If you want to learn how to create it please follow below tutorial👇:
+➡ Tutorial Link 💚 "JavaScript Mastery" Youtube Channel: [Build and Deploy a Full Stack Google Drive Clone with Next.js 15](https://www.youtube.com/watch?v=lie0cr3wESQ)
 
 ## Learn More
 
