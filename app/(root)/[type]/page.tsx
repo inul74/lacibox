@@ -3,7 +3,7 @@ import { Models } from "node-appwrite";
 
 import Sort from "@/components/Sort";
 import Card from "@/components/Card";
-import { convertFileSize, getFileTypesParams } from "@/lib/utils";
+import { getFileTypesParams } from "@/lib/utils";
 import { getFiles } from "@/lib/actions/file.actions";
 
 const Page = async ({ searchParams, params }: SearchParamProps) => {
@@ -22,7 +22,11 @@ const Page = async ({ searchParams, params }: SearchParamProps) => {
 
         <div className="total-size-section">
           <p className="body-1">
-            Total: <span className="h5">{files.total}</span>
+            Total:{" "}
+            <span className="h5">
+              {files.total}
+              {files.total > 1 ? " " + type : " " + types}
+            </span>
           </p>
 
           <div className="sort-container">

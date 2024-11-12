@@ -1,6 +1,7 @@
 <h1 align="center">LaciBox - Media penyimpanan serbaguna ✨</h1>
 
 ![Banner App](/public/banner.png)
+![Homepage App](/public/homepage.png)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
